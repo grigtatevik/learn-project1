@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-     font-family: Arial;
+    font-family: Arial;
 }
 
 .wrapper {
@@ -66,18 +66,17 @@ a {
 
 .block4 {
     width: 184px;
-    background-color: #777777;
+    background-color: #777;
 }
 
 .text4 {
     text-align: left ;
     color: white;
     font-size: 14px;
-    font-family: Arial;
     line-height: 22px;
     list-style: none;
     padding: 14px 10px 13px 13px;
-    margin:0;
+    margin: 0;
 }
 
 .block7 {
@@ -94,15 +93,31 @@ a {
 
 .block5 {
     background-color: #dcdcdc;
+    position: relative;
     text-align: left;
-    color: #777777;
+    color: #777;
     font-size: 14px;
     line-height: 22px;
-    padding: 17px 19px 30px;
-    margin:0;
+    padding: 17px 19px 16px;
+    margin: 0;
 }
 
-.text5-1 {
+li {
+    position: relative;
+}
+
+.block5 li:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #777;
+    display: block;
+    left: -9px;
+    top: 10px;
+}
+
+h4 {
     font-weight: bold;
     margin: 0;
 }
@@ -112,19 +127,30 @@ a {
 }
 
 .spisok {
-    margin:0;
-    padding: 23px 0 7px 23px;
+    position: relative;
+    margin: 0;
+    padding: 22px 0 22px 40px;
+    list-style: none;
 }
+
 p {
     margin:0;
 }
 
+.block6-wrapper {
+    overflow: hidden;
+    margin-left: -21px;
+}
+
 .block6 {
-    padding: 20px 0 13px;
+    float: left;
+    display: block;
+    margin: 20px 0 0 21px;
 }
 
 .center-bottom {
     overflow: hidden;
+    margin-top: 19px;
 }
 
 .block8 {
@@ -147,7 +173,7 @@ p {
     text-align: left;
     color: #777;
     line-height: 22px;
-    float: left;
+    float: right;
     padding: 18px;
     margin-left: 17px;
 }
@@ -156,24 +182,28 @@ p {
     overflow: hidden;
     border-top: 1px solid #777;
     padding: 23px 0;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .block10 {
-    width: 298px;
-    height: 180px;
+    width: 264px;
+    height: 159px;
     background-color: #777;
     margin-right: 27px;
     float: left;
+    padding: 12px 10px 9px 23px;
 }
 
 .text10 {
     font-size: 14px;
     color: white;
-    font-family: Arial;
     line-height: 22px;
     list-style: none;
-    columns: 2 20px;
+    columns: 2;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    column-gap: 0;
 }
 
 .block11 {
@@ -187,9 +217,22 @@ p {
     font-size: 14px;
     text-align: left;
     color: white;
-    font-family: Arial;
     line-height: 22px;
-    padding: 0 38px;
+    padding: 12px 38px;
+    list-style: none;
+    margin: 0;
+}
+
+.text11 li:before {
+    position: absolute;
+    content: "■";
+    left: -13px;
+    top: 1px;
+}
+
+
+.block1213 {
+    overflow: hidden;
 }
 
 .block12 {
@@ -197,11 +240,11 @@ p {
     height: 76px;
     background-color: #777;
     float: left;
-    margin-left: 26px;
+    margin-left: 28px;
 }
 
 .block13 {
-    float: left;
+    float: right;
     margin-left: 28px;
     margin-top: 28px;
 }
