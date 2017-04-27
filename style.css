@@ -39,7 +39,7 @@ body {
     float: left;
 }
 
-.text {
+.block3-text {
     text-align: right;
     color: white;
     font-size: 14px;
@@ -68,8 +68,8 @@ a {
     background-color: #777;
 }
 
-.text4 {
-    text-align: left ;
+.block4-text {
+    text-align: left;
     color: white;
     font-size: 14px;
     line-height: 22px;
@@ -93,39 +93,42 @@ a {
 .block5 {
     background-color: #dcdcdc;
     position: relative;
+    padding: 20px 19px 18px;
+    margin: 0;
+    color: #777;
+}
+
+.block5-list {
+    font-size: 14px;
     text-align: left;
     color: #777;
-    font-size: 14px;
     line-height: 22px;
-    padding: 17px 19px 16px;
-    margin: 0;
+    padding: 11px 30px;
+    list-style: none;
 }
 
-li {
-    position: relative;
-}
-
-.block5 li:before {
+.block5-list-item:before {
     content: "";
     position: absolute;
     width: 3px;
     height: 3px;
     background-color: #777;
     display: block;
-    left: -9px;
+    left: 0;
     top: 10px;
 }
 
+.block5-list-item {
+    position: relative;
+    padding-left: 9px;
+}
+
 h4 {
-    font-weight: bold;
     margin: 0;
+    font-size: 14px;
 }
 
-.span {
-    font-weight: bold;
-}
-
-.spisok {
+.list {
     position: relative;
     margin: 0;
     padding: 22px 0 22px 40px;
@@ -134,6 +137,7 @@ h4 {
 
 p {
     margin:0;
+    font-size: 14px;
 }
 
 .block6-wrapper {
@@ -193,7 +197,7 @@ p {
     padding: 12px 10px 9px 23px;
 }
 
-.text10 {
+.block10-list {
     font-size: 14px;
     color: white;
     line-height: 22px;
@@ -212,24 +216,32 @@ p {
     float: left;
 }
 
-.text11 {
+.block11-list {
     font-size: 14px;
     text-align: left;
     color: white;
     line-height: 22px;
-    padding: 12px 38px;
+    padding: 12px 26px;
     list-style: none;
     margin: 0;
 }
 
-.text11 li:before {
+.block11-list-item:before {
     position: absolute;
-    content: "■";
-    left: -13px;
-    top: 1px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    left: 0px;
+    top: 11px;
 }
 
-.block1213 {
+.block11-list-item {
+    position: relative;
+    padding-left: 12px;
+}
+
+.footer-right {
     overflow: hidden;
 }
 
