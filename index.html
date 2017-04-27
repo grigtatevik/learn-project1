@@ -7,11 +7,12 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="line">
+        <header class="line"><!--Класс переименуй, как я говорил.-->
             <img class="block1" src="./images/block1.jpg" alt="block1" title="самый верхний блок" width="122" height="108" />
             <div class="block2"></div>
             <div class="block3">
                 <div class="block3-text">
+                    <!--Эти три блока не должны растягиваться на всю ширину .block3-text. Нужно прижать их к правому краю флоатом.-->
                     <div>+7 (499) 346-21-31</div>
                     <div><a href="#">manager@pixelplus.ru</a></div>
                     <div><a href="#">www.pixelplus.ru</a></div>
@@ -40,7 +41,7 @@
             </div>
             <div class="center">
                 <div class="block5">
-                    <h4><strong>PSD файл с макетом. Макет разбит по слоям и сгрупированн по папкам:</strong></h4>
+                    <h4><strong>PSD файл с макетом. Макет разбит по слоям и сгрупированн по папкам:</strong></h4><!--H4 сам по себе жирный, strong не нужен.-->
                     <ul class="block5-list">
                         <li class="block5-list-item"><strong>number</strong> - нумерация блоков (номера блоков верстать не нужно)</li>
                         <li class="block5-list-item"><strong>text</strong> - текстовые блоки (шрифт Arial, размер 14 пикселей, межстрочное растояние 22 пикселя)</li>
@@ -79,6 +80,7 @@
                 </div>
             </div>
         </div>
+        <!--Между content и footer отступ складывается из марджина футера и паддинга контента - так не должно быть. Избавься от марджина.-->
         <div class="footer">
             <div class="block10">
                 <ul class="block10-list">
@@ -99,7 +101,7 @@
                 </ul>
             </div>
             <div class="block11">
-                <ul class="block11-list">
+                <ul class="block11-list"><!--Строки немного съехали по вертикали.-->
                     <li class="block11-list-item">Поисковое продвижение сайтов</li>
                     <li class="block11-list-item">Тариф «Старт»</li>
                     <li class="block11-list-item">Тариф «Продвижение Плюс»</li>
@@ -111,7 +113,7 @@
             </div>
             <div class"footer-right">
                 <div class="block12"></div>
-                <img class="block13" src="./images/block13.jpg" alt="block" title="блок" width="308" height="77" />
+                <img class="block13" src="./images/block13.jpg" alt="block" title="блок" width="308" height="77" /><!--По прежнему съезжает вправо вниз.-->
             </div>
         </div>
     </div>
