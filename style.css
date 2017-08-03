@@ -240,14 +240,3 @@ p {
 .dark-gray-block {
     background-color: #777;
 }
-
-.proverka {
-    position: absolute;
-    background-image: url("./images/main.jpg");
-    width: 1100px;
-    height: 1200px;
-    left: 372px;
-    top: 0;
-    opacity: 0.5;
-    /*display: none;*/
-}
